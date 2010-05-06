@@ -12,3 +12,17 @@
 function a11y_titles_uninstall() {
   variable_del('a11y_titles_blocks');
 }
+
+/**
+ * Implements hook_install().
+ */
+function a11y_titles_install() {
+  // No-op.
+}
+
+/**
+ * Pre-release schema tag.
+ */
+function a11y_titles_update_7000() {
+  // No-op.
+}
