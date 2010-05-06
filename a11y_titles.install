@@ -1,0 +1,14 @@
+<?php
+// $Id$
+
+/**
+ * @file
+ * Provides install, upgrade and un-install functions for a11y_titles.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function a11y_titles_uninstall() {
+  variable_del('a11y_titles_blocks');
+}

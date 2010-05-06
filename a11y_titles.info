@@ -1,0 +1,12 @@
+; $Id$
+
+name = "A11y titles"
+description = "Open access for content titles."
+
+core = 7.x
+
+files[] = a11y_titles.module
+files[] = a11y_titles.install
+files[] = a11y_titles.admin.inc
+
+;configure = admin/config/user-interface/a11y-titles
